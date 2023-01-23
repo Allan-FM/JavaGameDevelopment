@@ -2,11 +2,18 @@ package Game;
 
 public class ClassesAndMethods {
     public static void main(String[] args) {
-        Player player = new Player();
+        /*
+         * Player player = new Player();
+         * 
+         * player.comeToLife();
+         * 
+         * System.out.println(Player.life);
+         */
 
-        player.comeToLife();
+        Troll troll = new Troll(200);
 
-        System.out.println(Player.life);
+        troll.Damage();
+        System.out.println(troll.life);
 
     }
 }
