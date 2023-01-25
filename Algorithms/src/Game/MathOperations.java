@@ -9,7 +9,7 @@ public class MathOperations {
         int vida3 = 200;
 
         int vidaFinal_1 = ((vida1 + vida2) * vida3) / vida2;
-        // System.out.println(vidaFinal_1);
+        System.out.println(vidaFinal_1);
 
         String playerName = "Allan";
         int playerSkill = 100;
